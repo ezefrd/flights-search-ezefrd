@@ -11,4 +11,14 @@ public abstract class Airline {
         this.airlineCode = airlineCode;
         this.infantPrice = infantPrice;
     }
+
+    @Override public boolean equals(Object obj) {
+        Airline otherAirline = (Airline) obj;
+        return otherAirline.airlineCode.equals(airlineCode) &&
+                otherAirline.infantPrice.equals(infantPrice);
+    }
+
+    public Price calculatePriceForInfant(PriceRate passangerRate, PriceRate departureDateRate) {
+        return infantPrice;
+    }
 }

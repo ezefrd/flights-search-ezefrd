@@ -25,4 +25,9 @@ public class AirlineCode {
 
         return defaultAirline;
     }
+
+    @Override public boolean equals(Object obj) {
+        AirlineCode otherAirlineCode = (AirlineCode) obj;
+        return otherAirlineCode.airlineCode.equals(airlineCode);
+    }
 }

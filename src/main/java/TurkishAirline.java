@@ -4,7 +4,7 @@ import java.util.Locale;
 public class TurkishAirline extends Airline{
 
     public TurkishAirline(AirlineCode airlineCode) {
-        super(airlineCode, new Price(5, Currency
+        super(airlineCode, new Price(5.0, Currency
                 .getInstance(new Locale("es", "ES"))));
     }
 }

@@ -3,7 +3,6 @@ import java.util.Date;
 public class FlightSearch {
     private Date today;
 
-
     public FlightSearch(Date today) {
         this.today = today;
     }
