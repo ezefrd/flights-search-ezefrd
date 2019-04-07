@@ -1,6 +1,6 @@
-public class AdultPassanger extends Passanger{
-    public AdultPassanger(){
-        super(new PriceRate(100));
+public class ChildPassanger extends Passanger{
+    public ChildPassanger(){
+        super(new PriceRate(77));
     }
 
     @Override

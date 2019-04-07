@@ -14,4 +14,10 @@ public class Airport {
     public boolean matchIata(String iata) {
         return this.IATA.equals(iata);
     }
+
+    @Override public boolean equals(Object obj) {
+        Airport otherAirport = (Airport) obj;
+        return otherAirport.IATA.equals(IATA) &&
+                otherAirport.city.equals(city);
+    }
 }

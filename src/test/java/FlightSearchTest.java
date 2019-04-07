@@ -68,7 +68,7 @@ public class FlightSearchTest {
                                 airports.findByIATA(values[0]),
                                 airports.findByIATA(values[1]),
                                 airlineFactory.createFromCode(new AirlineCode(values[2])),
-                                new Price(new Integer(values[3]), Currency.getInstance(new Locale("es", "ES")))
+                                new Price(new Double(values[3]), Currency.getInstance(new Locale("es", "ES")))
                         )
                 );
             }
