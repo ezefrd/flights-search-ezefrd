@@ -122,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+            <state relative-caret-position="348">
+              <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -669,40 +669,43 @@
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
@@ -719,7 +722,7 @@
     <property name="SearchEverywhereHistoryKey" value="Passangers&#9;PSI&#9;JAVA://Passengers#passangers&#10;Price&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Price.java&#10;ad&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;Flight&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;AdultPassanger&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;FlightTe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;Fligh&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Flight.java&#10;Defa&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/DefaultAirlineTest.java&#10;Def&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/DefaultAirline.java&#10;Airports&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AirportsTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554679878364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554679980182" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -835,7 +838,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554558491880</updated>
-      <workItem from="1554558493760" duration="29440000" />
+      <workItem from="1554558493760" duration="29712000" />
     </task>
     <servers />
   </component>
@@ -872,11 +875,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29440000" />
+    <option name="totallyTimeSpent" value="29712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -1533,8 +1535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state relative-caret-position="348">
+          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
