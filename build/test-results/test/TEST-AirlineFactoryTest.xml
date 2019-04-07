@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AirlineFactoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:51" hostname="AR0FVFXD0M4HV2J" time="0.004">
+  <properties/>
+  <testcase name="test_create_from_code_iberia_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_vueling_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_invalid_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_lufthanse_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_easyjey_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_ryanair_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_british_airline" classname="AirlineFactoryTest" time="0.0"/>
+  <testcase name="test_create_from_code_turkish_airline" classname="AirlineFactoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

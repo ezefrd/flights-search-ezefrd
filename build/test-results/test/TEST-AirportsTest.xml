@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AirportsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:51" hostname="AR0FVFXD0M4HV2J" time="0.008">
+  <properties/>
+  <testcase name="test_add_airport_to_list" classname="AirportsTest" time="0.0"/>
+  <testcase name="test_find_airport_by_IATA_and_find_one" classname="AirportsTest" time="0.007"/>
+  <testcase name="test_find_airport_by_IATA_and_find_no_one" classname="AirportsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

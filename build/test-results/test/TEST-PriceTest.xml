@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PriceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:51" hostname="AR0FVFXD0M4HV2J" time="0.002">
+  <properties/>
+  <testcase name="test_two_different_prices_by_currency" classname="PriceTest" time="0.001"/>
+  <testcase name="test_two_different_prices_by_base_price" classname="PriceTest" time="0.0"/>
+  <testcase name="test_two_prices_are_the_same" classname="PriceTest" time="0.0"/>
+  <testcase name="test_two_different_prices" classname="PriceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
