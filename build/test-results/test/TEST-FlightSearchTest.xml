@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlightSearchTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:00" hostname="AR0FVFXD0M4HV2J" time="0.038">
+  <properties/>
+  <testcase name="test_an_adult_wants_to_fly_from_cph_to_fra_buying_ticket_more_than_30_days_prior_the_departure" classname="FlightSearchTest" time="0.038"/>
+  <system-out><![CDATA[equal]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

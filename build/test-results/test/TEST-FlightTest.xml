@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlightTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:00" hostname="AR0FVFXD0M4HV2J" time="0.005">
+  <properties/>
+  <testcase name="test_calculate_flight_result_for_one_adult" classname="FlightTest" time="0.003"/>
+  <testcase name="test_flight_dont_match_origin_and_destiny_iata" classname="FlightTest" time="0.0"/>
+  <testcase name="test_flight_match_origin_and_destiny_iata" classname="FlightTest" time="0.0"/>
+  <testcase name="test_calculate_price_with_rates" classname="FlightTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
