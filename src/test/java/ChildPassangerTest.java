@@ -34,7 +34,7 @@ public class ChildPassangerTest {
         Price childPrice = childPassanger.calculateFlightPrice(flight, departureDateRate);
         //then:
         Assert.assertEquals(
-                new Price(92.4, Currency.getInstance(new Locale("es", "ES"))),
+                new Price(80.4, Currency.getInstance(new Locale("es", "ES"))),
                 childPrice
         );
     }

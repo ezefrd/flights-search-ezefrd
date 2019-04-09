@@ -22,4 +22,8 @@ public class Price {
         bdPriceWithRate = bdPriceWithRate.setScale(this.currency.getDefaultFractionDigits(), BigDecimal.ROUND_HALF_UP);
         return new Price(bdPriceWithRate.doubleValue(), this.currency);
     }
+
+    public void addPrice(Price otherAmount) {
+        this.basePrice += otherAmount.basePrice;
+    }
 }

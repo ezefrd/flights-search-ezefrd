@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Currency;
+import java.util.Locale;
 
 public class Passengers {
     private ArrayList<Passanger> passangers;
@@ -11,5 +13,17 @@ public class Passengers {
         this.passangers = this.passangers != null ? this.passangers : new ArrayList<>();
         this.passangers.add(passanger);
         return this;
+    }
+
+    public Price calculateFlightAmount(Flight flight,
+            PriceRate departureDateRate) {
+        Price totalAmount = new Price(0.0, Currency.getInstance(new Locale("es", "ES")));
+
+        for (Passanger passanger : this.passangers){
+            Price passangerAmount = passanger.calculateFlightPrice(flight,departureDateRate);
+            totalAmount.addPrice(passangerAmount);
+        }
+
+        return totalAmount;
     }
 }

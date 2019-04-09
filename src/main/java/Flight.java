@@ -52,8 +52,8 @@ public class Flight implements PotentialFlight{
     }
 
     public Price calculatePriceWithRates(PriceRate passangerRate, PriceRate departureDateRate) {
-        Price price = passangerRate.calculatePrice(this.basePrice);
-        price = departureDateRate.calculatePrice(price);
+        Price price = departureDateRate.calculatePrice(this.basePrice);
+        price = passangerRate.calculatePrice(price);
 
         return price;
     }
