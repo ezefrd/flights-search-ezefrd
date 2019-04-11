@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9118ed13-d9f8-4ece-8c64-1bfa6a7613ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Airline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Airline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AirlineCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/AirlineCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AirlineFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/AirlineFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/BritishAirwaysAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/BritishAirwaysAirline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ChildPassanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ChildPassanger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DepartureDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/DepartureDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/EasyjetAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/EasyjetAirline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Flight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FlightResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FlightResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FlightSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FlightSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Flights.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Flights.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FlightsResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FlightsResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IberiaAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IberiaAirline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LufthanseAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LufthanseAirline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NoneAirline.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NoneAirlineCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NoneFlight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NonePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/NonePrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Passengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Passengers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Price.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PriceRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PriceRate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/RyanairAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/RyanairAirline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TurkishAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TurkishAirline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/VuelingAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/VuelingAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -79,6 +47,7 @@
           <entry key="csv" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="3" />
+          <entry key="gradlew" value="1" />
           <entry key="java" value="223" />
           <entry key="yml" value="1" />
         </counts>
@@ -89,7 +58,7 @@
           <entry key="CSV" value="1" />
           <entry key="Groovy" value="3" />
           <entry key="JAVA" value="223" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -98,7 +67,7 @@
           <entry key="dummy" value="26" />
           <entry key="gradle" value="7" />
           <entry key="java" value="15535" />
-          <entry key="yml" value="5" />
+          <entry key="yml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -106,22 +75,13 @@
           <entry key="Groovy" value="7" />
           <entry key="JAVA" value="15535" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AdultPassanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Passanger.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,20 +121,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+              <caret column="44" selection-start-column="44" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -623,7 +583,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/AirlineChecker.java" />
         <option value="$PROJECT_DIR$/src/test/java/IberiaAirlineTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DefaultAirlineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DefaultAirline.java" />
@@ -674,6 +633,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Flight.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/travis.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -715,6 +675,22 @@
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -727,7 +703,7 @@
     <property name="SearchEverywhereHistoryKey" value="AirlineFactory&#9;PSI&#9;JAVA://AirlineFactoryTest&#10;none&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/NoneFlightsResults.java&#10;AirlineF&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/AirlineFactory.java&#10;Rya&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/RyanairAirline.java&#10;Inf&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/InfantPassanger.java&#10;lu&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/LufthanseAirline.java&#10;FlightS&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/FlightSearch.java&#10;Passe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Passengers.java&#10;Flig&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightSearchTest.java&#10;Airl&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/AirlineFactory.java&#10;Fli&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightSearchTest.java&#10;Iber&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/IberiaAirline.java&#10;Passangers&#9;PSI&#9;JAVA://Passengers#passangers&#10;Price&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Price.java&#10;ad&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;Flight&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;AdultPassanger&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;FlightTe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;Fligh&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Flight.java&#10;Defa&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/DefaultAirlineTest.java&#10;Def&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/DefaultAirline.java&#10;Airports&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AirportsTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555008991697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555009498379" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -844,7 +820,7 @@
       <workItem from="1554896809301" duration="1108000" />
       <workItem from="1554931132475" duration="4624000" />
       <workItem from="1554989169796" duration="218000" />
-      <workItem from="1555008958228" duration="217000" />
+      <workItem from="1555008958228" duration="414000" />
     </task>
     <servers />
   </component>
@@ -881,7 +857,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46923000" />
+    <option name="totallyTimeSpent" value="47120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1066,13 +1042,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-zulu/src.zip!/java/lang/Double.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1440,6 +1409,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1450,14 +1429,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
