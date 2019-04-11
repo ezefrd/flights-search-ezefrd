@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FlightsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:51" hostname="AR0FVFXD0M4HV2J" time="0.007">
-  <properties/>
-  <testcase name="test_find_flights_matching_origin_and_destination_with_one_flight" classname="FlightsTest" time="0.005"/>
-  <testcase name="test_find_flights_matching_origin_and_destination_with_two_flights" classname="FlightsTest" time="0.001"/>
-  <testcase name="test_find_flights_matching_origin_and_destination_with_none_flightst" classname="FlightsTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

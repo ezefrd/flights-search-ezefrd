@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InfantPassangerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:51" hostname="AR0FVFXD0M4HV2J" time="0.0">
-  <properties/>
-  <testcase name="test_add_own_price_applying_self_rate_and_departure_day_rate" classname="InfantPassangerTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
