@@ -9,8 +9,8 @@ public class AirlineFactory {
         airlines = new LinkedHashMap<>();
         airlines.put("IB", IberiaAirline.class);
         airlines.put("BA", BritishAirwaysAirline.class);
-        airlines.put("FR", LufthanseAirline.class);
-        airlines.put("LH", RyanairAirline.class);
+        airlines.put("FR", RyanairAirline.class);
+        airlines.put("LH", LufthanseAirline.class);
         airlines.put("VY", VuelingAirline.class);
         airlines.put("TK", TurkishAirline.class);
         airlines.put("U2", EasyjetAirline.class);
@@ -22,8 +22,6 @@ public class AirlineFactory {
 
 
     public Airline createFromCode(AirlineCode airlineCode) {
-        //Airline airline = airlineCode.checkCodeAndReturnAirlineOrDefault("IB", new IberiaAirline(airlineCode), new DefaultAirline());
-        //return airline;
         Airline airline = new DefaultAirline();
         for(String key : airlines.keySet()){
             try {

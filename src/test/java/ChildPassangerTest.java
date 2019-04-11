@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.util.Currency;
 import java.util.Locale;
 
@@ -28,13 +29,13 @@ public class ChildPassangerTest {
         ChildPassanger childPassanger = new ChildPassanger();
         Flight flight = new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(150.0, currency));
+                new Price(new BigDecimal(150), currency));
         PriceRate departureDateRate = new PriceRate(80);
         //when:
         Price childPrice = childPassanger.calculateFlightPrice(flight, departureDateRate);
         //then:
         Assert.assertEquals(
-                new Price(80.4, Currency.getInstance(new Locale("es", "ES"))),
+                new Price(new BigDecimal(80.4), Currency.getInstance(new Locale("es", "ES"))),
                 childPrice
         );
     }

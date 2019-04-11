@@ -14,15 +14,8 @@ public class Flight implements PotentialFlight{
         this.basePrice = basePrice;
     }
 
-    /**
-     * Esto se puede hacer diferente.. si en vez de pasar el string del codigo IATA,
-     * le paso los airports.
-     * @param originIATA
-     * @param destinyIATA
-     * @return
-     */
-    public boolean matchOriginAndDestinyIATA(String originIATA, String destinyIATA) {
-        return airportOrigin.matchIata(originIATA) && airportDestiny.matchIata(destinyIATA);
+    public boolean matchOriginAndDestinyAirports(Airport originAirport, Airport destinyAirport) {
+        return airportOrigin.equals(originAirport) && airportDestiny.equals(destinyAirport);
     }
 
 
@@ -38,17 +31,11 @@ public class Flight implements PotentialFlight{
 
     @Override
     public FlightResult calculateFlightResult(Passengers passengers,
-            PriceRate departureDayRate) {
+            PriceRate departureDateRate) {
 
-        Price accumulatedPrice = new Price(0.0, Currency.getInstance(new Locale("es", "ES")));
+        Price totalAmount = passengers.calculateFlightAmount(this, departureDateRate);
 
-
-
-        /*for (Passanger passanger : passengers){
-            Price passangerRate = passanger.calculateFlightPrice(this, departureDayRate)
-        }*/
-
-        return null;
+        return new FlightResult(this.airline, totalAmount);
     }
 
     public Price calculatePriceWithRates(PriceRate passangerRate, PriceRate departureDateRate) {

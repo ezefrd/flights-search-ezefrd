@@ -1,9 +1,14 @@
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public class DepartureDate {
-    private Date departureDate;
+    private LocalDate departureDate;
 
-    public DepartureDate(Date departureDate){
+    public DepartureDate(LocalDate departureDate){
         this.departureDate = departureDate;
+    }
+
+    public long differenceWithToday(LocalDate today) {
+        return ChronoUnit.DAYS.between(today, departureDate);
     }
 }

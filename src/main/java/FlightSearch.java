@@ -1,13 +1,18 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class FlightSearch {
-    private Date today;
+    private LocalDate today;
+    private Flights flights;
 
-    public FlightSearch(Date today) {
+
+    public FlightSearch(Flights flights, LocalDate today) {
+        this.flights = flights;
         this.today = today;
     }
 
     public FlightsResult search(Passengers passengers, DepartureDate departureDate, Airport airportOrigin, Airport airportDestiny) {
-        return new FlightsResult();
+        Flights potentialFlights = flights.searchFlightsFromTo(airportOrigin, airportDestiny);
+        PriceRate departureDateRate = new DepartureDateRateFactory().createRate(today, departureDate);
+        return potentialFlights.createFlightsResults(passengers, departureDateRate);
     }
 }

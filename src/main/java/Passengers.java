@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Currency;
 import java.util.Locale;
@@ -17,7 +18,7 @@ public class Passengers {
 
     public Price calculateFlightAmount(Flight flight,
             PriceRate departureDateRate) {
-        Price totalAmount = new Price(0.0, Currency.getInstance(new Locale("es", "ES")));
+        Price totalAmount = new Price(new BigDecimal(0), Currency.getInstance(new Locale("es", "ES")));
 
         for (Passanger passanger : this.passangers){
             Price passangerAmount = passanger.calculateFlightPrice(flight,departureDateRate);

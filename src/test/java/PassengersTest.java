@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.util.Currency;
 import java.util.Locale;
 
@@ -17,13 +18,13 @@ public class PassengersTest {
                     new Airport("MAD", "Madrid"),
                     new Airport("BCN", "Barcelona"),
                     new IberiaAirline(new AirlineCode("IB1234")),
-                    new Price(150.0, Currency.getInstance(new Locale("es", "ES")))
+                    new Price(new BigDecimal(150), Currency.getInstance(new Locale("es", "ES")))
                 );
         PriceRate departureDateRate = new PriceRate(80);
         //when:
         Price totalAmount = passengers.calculateFlightAmount(flight, departureDateRate);
         //then:
-        Assert.assertEquals(new Price(120.0, Currency.getInstance(new Locale("es", "ES"))), totalAmount);
+        Assert.assertEquals(new Price(new BigDecimal(120), Currency.getInstance(new Locale("es", "ES"))), totalAmount);
     }
 
     @Test
@@ -39,13 +40,13 @@ public class PassengersTest {
                 new Airport("MAD", "Madrid"),
                 new Airport("BCN", "Barcelona"),
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(150.0, Currency.getInstance(new Locale("es", "ES")))
+                new Price(new BigDecimal(150), Currency.getInstance(new Locale("es", "ES")))
         );
         PriceRate departureDateRate = new PriceRate(120);
         //when:
         Price totalAmount = passengers.calculateFlightAmount(flight, departureDateRate);
         //then:
-        Assert.assertEquals(new Price(490.6, Currency.getInstance(new Locale("es", "ES"))), totalAmount);
+        Assert.assertEquals(new Price(new BigDecimal(490.6), Currency.getInstance(new Locale("es", "ES"))), totalAmount);
     }
 
 }

@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.util.Currency;
 import java.util.Locale;
 
@@ -34,7 +35,7 @@ public class FlightsTest {
     @Test
     public void test_find_flights_matching_origin_and_destination_with_two_flights(){
         //when:
-        Flights foundedFlights = flights.searchFlightsFromTo("BCN","MAD");
+        Flights foundedFlights = flights.searchFlightsFromTo(barcelonaAirport,madridAirport);
         //then:
         Assert.assertEquals(foundedFlights, new Flights().add(getBarcelonaMadridIBFlight()).add(getBarcelonaMadridBAFlight()));
     }
@@ -42,7 +43,7 @@ public class FlightsTest {
     @Test
     public void test_find_flights_matching_origin_and_destination_with_one_flight(){
                 //when:
-        Flights foundedFlights = flights.searchFlightsFromTo("BCN","FCO");
+        Flights foundedFlights = flights.searchFlightsFromTo(barcelonaAirport,romeAirport);
         //then:
         Assert.assertEquals(foundedFlights, new Flights().add(getBarcelonaRomeIBFlight()));
     }
@@ -51,7 +52,7 @@ public class FlightsTest {
     public void test_find_flights_matching_origin_and_destination_with_none_flightst(){
 
         //when:
-        Flights foundedFlights = flights.searchFlightsFromTo("BCN","AMS");
+        Flights foundedFlights = flights.searchFlightsFromTo(barcelonaAirport,new Airport("AMS", "Amsterdam"));
         //then:
         Assert.assertEquals(foundedFlights, new NoneFlights());
     }
@@ -59,19 +60,19 @@ public class FlightsTest {
     private Flight getBarcelonaMadridIBFlight() {
         return new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(150.0, currency));
+                new Price(new BigDecimal(150), currency));
     }
 
     private Flight getBarcelonaMadridBAFlight() {
         return new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("BA1234")),
-                new Price(180.0, currency));
+                new Price(new BigDecimal(180), currency));
     }
 
     private Flight getBarcelonaRomeIBFlight() {
         return new Flight(barcelonaAirport, romeAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(100.5, currency));
+                new Price(new BigDecimal(100.5), currency));
     }
 
 }

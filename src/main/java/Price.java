@@ -1,29 +1,40 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.text.NumberFormat;
 import java.util.Currency;
 
 public class Price {
-    private Double basePrice;
+    private BigDecimal basePrice;
     private Currency currency;
 
-    public Price(Double basePrice, Currency currency) {
+    public Price(BigDecimal basePrice, Currency currency) {
         this.basePrice = basePrice;
         this.currency = currency;
     }
 
     @Override public boolean equals(Object obj) {
         Price otherPrice = (Price) obj;
-        return otherPrice.basePrice.equals(basePrice)&& otherPrice.currency.equals(currency);
+        return otherPrice.getBasePrice().equals(this.getBasePrice())&& otherPrice.currency.equals(currency);
+    }
+
+    private BigDecimal getBasePrice() {
+        return this.basePrice.setScale(currency.getDefaultFractionDigits(), RoundingMode.DOWN);
     }
 
     public Price applyRate(int rate) {
-        Double priceWithRate = ((rate * this.basePrice ) / 100.0);
-        BigDecimal bdPriceWithRate = new BigDecimal(priceWithRate);
-        bdPriceWithRate = bdPriceWithRate.setScale(this.currency.getDefaultFractionDigits(), BigDecimal.ROUND_HALF_UP);
-        return new Price(bdPriceWithRate.doubleValue(), this.currency);
+        BigDecimal priceWithRate = this.basePrice.multiply(new BigDecimal(rate)).divide(new BigDecimal(100));
+        return new Price(priceWithRate, this.currency);
     }
 
     public void addPrice(Price otherAmount) {
-        this.basePrice += otherAmount.basePrice;
+        this.basePrice = this.basePrice.add(otherAmount.basePrice);
+        this.basePrice = this.basePrice.setScale(currency.getDefaultFractionDigits(), RoundingMode.DOWN);
+    }
+
+    public String showCost() {
+        NumberFormat formatter = NumberFormat.getInstance();
+        formatter.setCurrency(currency);
+
+        return formatter.format(this.basePrice) + " " + currency.getSymbol();
     }
 }

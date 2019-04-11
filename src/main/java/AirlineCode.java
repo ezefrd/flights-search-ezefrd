@@ -30,4 +30,8 @@ public class AirlineCode {
         AirlineCode otherAirlineCode = (AirlineCode) obj;
         return otherAirlineCode.airlineCode.equals(airlineCode);
     }
+
+    public String show() {
+        return this.airlineCode;
+    }
 }

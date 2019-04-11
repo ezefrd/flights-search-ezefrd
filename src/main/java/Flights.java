@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.function.Supplier;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
@@ -20,9 +21,9 @@ public class Flights {
         return this;
     }
 
-    public Flights searchFlightsFromTo(String originAirportIATA, String destinyAirportIATA) {
+    public Flights searchFlightsFromTo(Airport originAirport, Airport destinyAirport) {
         ArrayList<Flight> foundedFlights = this.flights.parallelStream()
-                .filter(flight -> flight.matchOriginAndDestinyIATA(originAirportIATA, destinyAirportIATA))
+                .filter(flight -> flight.matchOriginAndDestinyAirports(originAirport, destinyAirport))
                 .collect(Collectors.toCollection(ArrayList::new));
 
         return foundedFlights.size() > 0 ? new Flights(foundedFlights) : new NoneFlights();
@@ -32,5 +33,13 @@ public class Flights {
         Flights otherFlights = (Flights) obj;
         return flights.containsAll(otherFlights.flights) &&
                 flights.size() == otherFlights.flights.size();
+    }
+
+    public FlightsResult createFlightsResults(Passengers passengers,
+            PriceRate departureDateRate) {
+        ArrayList<FlightResult> flightResults = this.flights.stream()
+                .map(flight -> flight.calculateFlightResult(passengers, departureDateRate))
+                .collect(Collectors.toCollection(ArrayList::new));
+        return flightResults.isEmpty() != true ?new FlightsResult(flightResults) : new NoneFlightsResults();
     }
 }

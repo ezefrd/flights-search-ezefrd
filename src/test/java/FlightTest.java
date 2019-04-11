@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.util.Currency;
 import java.util.Locale;
 
@@ -28,9 +29,9 @@ public class FlightTest {
         //given:
         Flight barcelonaMadridIBFlight = new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(150.0, currency));
+                new Price(new BigDecimal(150), currency));
         //when:
-        boolean matchIata = barcelonaMadridIBFlight.matchOriginAndDestinyIATA("BCN", "MAD");
+        boolean matchIata = barcelonaMadridIBFlight.matchOriginAndDestinyAirports(barcelonaAirport, madridAirport);
         //then:
         assertTrue(matchIata);
     }
@@ -40,9 +41,9 @@ public class FlightTest {
         //given:
         Flight barcelonaMadridIBFlight = new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(150.0, currency));
+                new Price(new BigDecimal(150), currency));
         //when:
-        boolean matchIata = barcelonaMadridIBFlight.matchOriginAndDestinyIATA("BCN", "FCO");
+        boolean matchIata = barcelonaMadridIBFlight.matchOriginAndDestinyAirports(barcelonaAirport, new Airport("FCO", "Rome"));
         //then:
         assertFalse(matchIata);
     }
@@ -52,7 +53,7 @@ public class FlightTest {
         //given:
         PotentialFlight barcelonaMadridIBFlight = new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(100.0, currency));
+                new Price(new BigDecimal(100), currency));
 
         Passengers passengers = new Passengers();
         passengers.addPassanger(new AdultPassanger());
@@ -62,15 +63,14 @@ public class FlightTest {
                 new PriceRate(80)
         );
         //then:
-/*        Assert.assertEquals(
+       Assert.assertEquals(
                 new FlightResult(
                         new IberiaAirline(new AirlineCode("IB1234")),
                         new Price(
-                                80.0,
+                                new BigDecimal(80),
                                 Currency.getInstance(new Locale("es", "ES"))
                         )
-                ), flightResult);*/
-        Assert.assertNull(flightResult);
+                ), flightResult);
     }
 
     @Test
@@ -80,11 +80,11 @@ public class FlightTest {
         PriceRate departureDateRate = new PriceRate(80);
         Flight flight = new Flight(barcelonaAirport, madridAirport,
                 new IberiaAirline(new AirlineCode("IB1234")),
-                new Price(100.0, currency));
+                new Price(new BigDecimal(100), currency));
         //when:
         Price calculatedPrice = flight.calculatePriceWithRates(passangerRate, departureDateRate);
         //then:
-        Assert.assertEquals(new Price(80.0, currency), calculatedPrice);
+        Assert.assertEquals(new Price(new BigDecimal(80), currency), calculatedPrice);
 
     }
 

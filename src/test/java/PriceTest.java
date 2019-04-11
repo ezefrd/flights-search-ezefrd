@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.math.BigDecimal;
 import java.util.Currency;
 import java.util.Locale;
 
@@ -10,12 +11,12 @@ public class PriceTest {
     public void test_two_prices_are_the_same(){
         //given:
         Price price1 = new Price(
-                10.0,
+                new BigDecimal(10),
                 Currency.getInstance(new Locale("es", "ES"))
         );
 
         Price price2 = new Price(
-                10.0,
+                new BigDecimal(10),
                 Currency.getInstance(new Locale("es", "ES"))
         );
 
@@ -27,12 +28,12 @@ public class PriceTest {
     public void test_two_different_prices_by_base_price(){
         //given:
         Price price1 = new Price(
-                10.0,
+                new BigDecimal(10),
                 Currency.getInstance(new Locale("es", "ES"))
         );
 
         Price price2 = new Price(
-                12.0,
+                new BigDecimal(12),
                 Currency.getInstance(new Locale("es", "ES"))
         );
 
@@ -44,12 +45,12 @@ public class PriceTest {
     public void test_two_different_prices_by_currency(){
         //given:
         Price price1 = new Price(
-                10.0,
+                new BigDecimal(10),
                 Currency.getInstance(new Locale("es", "ES"))
         );
 
         Price price2 = new Price(
-                10.0,
+                new BigDecimal(10),
                 Currency.getInstance(new Locale("es", "AR"))
         );
 
@@ -61,12 +62,12 @@ public class PriceTest {
     public void test_two_different_prices(){
         //given:
         Price price1 = new Price(
-                10.0,
+                new BigDecimal(10),
                 Currency.getInstance(new Locale("es", "ES"))
         );
 
         Price price2 = new Price(
-                12.0,
+                new BigDecimal(12),
                 Currency.getInstance(new Locale("es", "AR"))
         );
 

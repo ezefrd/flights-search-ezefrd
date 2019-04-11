@@ -18,6 +18,10 @@ public abstract class Airline {
                 otherAirline.infantPrice.equals(infantPrice);
     }
 
+    public String showCode() {
+        return this.airlineCode.show();
+    }
+
     public Price calculatePriceForInfant(PriceRate passangerRate, PriceRate departureDateRate) {
         return infantPrice;
     }

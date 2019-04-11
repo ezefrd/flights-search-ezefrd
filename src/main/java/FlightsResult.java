@@ -8,9 +8,18 @@ public class FlightsResult {
         this.flightResults = new ArrayList<FlightResult>();
     }
 
-    public LinkedHashMap asMap() {
-        LinkedHashMap result = new LinkedHashMap();
+    public FlightsResult(ArrayList<FlightResult> flightResults){
+        this.flightResults = flightResults;
+    }
 
-        return result;
+    public String show() {
+        StringBuilder flights = new StringBuilder();
+        flights.append("flights:").append("\n");
+
+        for(FlightResult flightResult : flightResults){
+            flights.append(flightResult.show());
+        }
+
+        return flights.toString();
     }
 }
