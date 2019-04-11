@@ -2,43 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9118ed13-d9f8-4ece-8c64-1bfa6a7613ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DepartureDateRateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NoneFlightsResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DepartureDateRateFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Airline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirlineCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirlineCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AirlineFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AirlineFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BritishAirwaysAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BritishAirwaysAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DepartureDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DepartureDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EasyjetAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EasyjetAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightsResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightsResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IberiaAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IberiaAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LufthanseAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LufthanseAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NoneAirline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NoneAirlineCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NoneFlight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NonePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NonePrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Passengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Passengers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PriceRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PriceRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RyanairAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RyanairAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TurkishAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TurkishAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VuelingAirline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VuelingAirline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AdultPassangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdultPassangerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChildPassangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChildPassangerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FlightsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InfantPassangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InfantPassangerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PassengersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PassengersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PriceRateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PriceRateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Airline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Airline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AirlineCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/AirlineCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/AirlineFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/AirlineFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/BritishAirwaysAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/BritishAirwaysAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ChildPassanger.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ChildPassanger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DepartureDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/DepartureDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/EasyjetAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/EasyjetAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Flight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FlightResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FlightResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FlightSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FlightSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Flights.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Flights.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FlightsResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FlightsResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IberiaAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IberiaAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LufthanseAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LufthanseAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NoneAirline.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NoneAirlineCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NoneFlight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/NonePrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/NonePrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Passengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Passengers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PriceRate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PriceRate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/RyanairAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/RyanairAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TurkishAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TurkishAirline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/VuelingAirline.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/VuelingAirline.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,43 +65,48 @@
     <session id="-1395947865">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="csv" value="2" />
-          <entry key="gradle" value="2" />
-          <entry key="java" value="220" />
+          <entry key="gitignore" value="1" />
+          <entry key="gradle" value="3" />
+          <entry key="java" value="223" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSV" value="1" />
-          <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="220" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="223" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
-          <entry key="gradle" value="3" />
-          <entry key="java" value="15525" />
+          <entry key="gradle" value="7" />
+          <entry key="java" value="15535" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="15525" />
+          <entry key="Groovy" value="7" />
+          <entry key="JAVA" value="15535" />
           <entry key="PLAIN_TEXT" value="26" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -112,72 +114,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlightSearchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AdultPassanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state>
+              <caret column="36" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NoneAirport.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Passanger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="75">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NoneFlightsResults.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#91#92#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AirlineFactory.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+            <state relative-caret-position="405">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AdultPassanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PotentialFlight.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#781#782#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-              </folding>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -199,21 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-zulu/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="44700">
               <caret line="3071" column="27" selection-start-line="3071" selection-start-column="27" selection-end-line="3071" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DefaultAirline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -325,6 +318,11 @@
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Verifies code coverage metrics based on specified rules for the test task." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jacocoTestCoverageVerification" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="testClasses" />
@@ -380,6 +378,11 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Generates code coverage report for the test task." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jacocoTestReport" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
@@ -431,9 +434,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6218360821000" />
+        <entry key="$PROJECT_DIR$" value="6218789111000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="955855853" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3614459356" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2499986880" />
       </map>
@@ -620,8 +623,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/NoneAirport.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/flights.csv" />
         <option value="$PROJECT_DIR$/src/main/java/AirlineChecker.java" />
         <option value="$PROJECT_DIR$/src/test/java/IberiaAirlineTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DefaultAirlineTest.java" />
@@ -641,7 +642,6 @@
         <option value="$PROJECT_DIR$/src/main/java/PriceRate.java" />
         <option value="$PROJECT_DIR$/src/test/java/DepartureDateRateFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DepartureDateRateFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Flight.java" />
         <option value="$PROJECT_DIR$/src/main/java/FlightSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/EasyjetAirline.java" />
         <option value="$PROJECT_DIR$/src/main/java/VuelingAirline.java" />
@@ -671,6 +671,9 @@
         <option value="$PROJECT_DIR$/src/test/java/NoSuchMethodAirline.java" />
         <option value="$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Airline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Flight.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/travis.yml" />
       </list>
     </option>
   </component>
@@ -680,7 +683,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -705,7 +708,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -713,52 +715,11 @@
               <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
               <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ezefrd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flight-search-ezefrd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -766,7 +727,7 @@
     <property name="SearchEverywhereHistoryKey" value="AirlineFactory&#9;PSI&#9;JAVA://AirlineFactoryTest&#10;none&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/NoneFlightsResults.java&#10;AirlineF&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/AirlineFactory.java&#10;Rya&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/RyanairAirline.java&#10;Inf&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/InfantPassanger.java&#10;lu&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/LufthanseAirline.java&#10;FlightS&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/FlightSearch.java&#10;Passe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Passengers.java&#10;Flig&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightSearchTest.java&#10;Airl&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/AirlineFactory.java&#10;Fli&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightSearchTest.java&#10;Iber&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/IberiaAirline.java&#10;Passangers&#9;PSI&#9;JAVA://Passengers#passangers&#10;Price&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Price.java&#10;ad&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;Flight&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;AdultPassanger&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;FlightTe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;Fligh&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Flight.java&#10;Defa&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/DefaultAirlineTest.java&#10;Def&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/DefaultAirline.java&#10;Airports&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AirportsTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554986950645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555008991697" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -881,14 +842,13 @@
       <workItem from="1554772185223" duration="3006000" />
       <workItem from="1554852395930" duration="6259000" />
       <workItem from="1554896809301" duration="1108000" />
-      <workItem from="1554931132475" duration="3759000" />
+      <workItem from="1554931132475" duration="4624000" />
+      <workItem from="1554989169796" duration="218000" />
+      <workItem from="1555008958228" duration="217000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_flight-search-ezefrd_test - 2019.04.10 at 18h 57m 31s.xml">
-      <configuration name="All in flight-search-ezefrd_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_flight-search-ezefrd_test - 2019.04.10 at 18h 58m 43s.xml">
       <configuration name="All in flight-search-ezefrd_test" configurationId="JUnit" />
     </history-entry>
@@ -916,15 +876,18 @@
     <history-entry file="All_in_flight-search-ezefrd_test - 2019.04.10 at 19h 11m 55s.xml">
       <configuration name="All in flight-search-ezefrd_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_flight-search-ezefrd_test - 2019.04.11 at 10h 27m 51s.xml">
+      <configuration name="All in flight-search-ezefrd_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45623000" />
+    <option name="totallyTimeSpent" value="46923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -932,14 +895,14 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -948,7 +911,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.34406295" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.21959943" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Gradle" order="7" />
@@ -1103,45 +1066,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-zulu/src.zip!/java/time/temporal/ChronoUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NoneFlights.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PotentialFlight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DepartureDateRateFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Passanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1402,16 +1330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NoneFlightsResults.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1423,20 +1341,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NoneFlight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NoneAirline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NoneFlight.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NoneAirline.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/FlightSearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1455,24 +1361,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NoSuchMethodAirline.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NoneAirport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-zulu/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="3071" column="27" selection-start-line="3071" selection-start-column="27" selection-end-line="3071" selection-end-column="27" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AirlineFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="390">
           <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AdultPassanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Passanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PotentialFlight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1488,35 +1433,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NoSuchMethodAirline.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-zulu/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="44700">
+          <caret line="3071" column="27" selection-start-line="3071" selection-start-column="27" selection-end-line="3071" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="405">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AdultPassanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-          </folding>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
