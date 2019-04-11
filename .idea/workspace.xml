@@ -47,7 +47,7 @@
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="3" />
           <entry key="gradlew" value="1" />
-          <entry key="java" value="223" />
+          <entry key="java" value="224" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -56,7 +56,7 @@
           <entry key="CLASS" value="1" />
           <entry key="CSV" value="1" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="223" />
+          <entry key="JAVA" value="224" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="YAML" value="1" />
         </counts>
@@ -86,6 +86,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -129,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -193,6 +202,7 @@
       <find>12.0</find>
       <find>,</find>
       <find>test_2 adults, 1 child, 1 infant, 15 days to the departure date, flying LHR -&gt; IST</find>
+      <find>Mockito</find>
     </findStrings>
     <replaceStrings>
       <replace>new BigDecimal(150)</replace>
@@ -723,7 +733,7 @@
     <property name="SearchEverywhereHistoryKey" value="AirlineFactory&#9;PSI&#9;JAVA://AirlineFactoryTest&#10;none&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/NoneFlightsResults.java&#10;AirlineF&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/AirlineFactory.java&#10;Rya&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/RyanairAirline.java&#10;Inf&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/InfantPassanger.java&#10;lu&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/LufthanseAirline.java&#10;FlightS&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/FlightSearch.java&#10;Passe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Passengers.java&#10;Flig&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightSearchTest.java&#10;Airl&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/AirlineFactory.java&#10;Fli&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightSearchTest.java&#10;Iber&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/IberiaAirline.java&#10;Passangers&#9;PSI&#9;JAVA://Passengers#passangers&#10;Price&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Price.java&#10;ad&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;Flight&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;AdultPassanger&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AdultPassangerTest.java&#10;FlightTe&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/FlightTest.java&#10;Fligh&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/Flight.java&#10;Defa&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/DefaultAirlineTest.java&#10;Def&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/main/java/DefaultAirline.java&#10;Airports&#9;FILE&#9;file:///Users/efridman/Proyectos/ezefrd/src/test/java/AirportsTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555014926456" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555015004147" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -841,7 +851,7 @@
       <workItem from="1554931132475" duration="4624000" />
       <workItem from="1554989169796" duration="218000" />
       <workItem from="1555008958228" duration="660000" />
-      <workItem from="1555013679082" duration="941000" />
+      <workItem from="1555013679082" duration="1045000" />
     </task>
     <servers />
   </component>
@@ -878,7 +888,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48388000" />
+    <option name="totallyTimeSpent" value="48492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -892,14 +902,14 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1338,13 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/AdultPassanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1421,8 +1424,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AirlineFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
