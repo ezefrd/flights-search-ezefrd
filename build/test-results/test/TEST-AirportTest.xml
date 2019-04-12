@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AirportTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-04-07T23:55:51" hostname="AR0FVFXD0M4HV2J" time="0.0">
-  <properties/>
-  <testcase name="test_match_iata_and_match_false" classname="AirportTest" time="0.0"/>
-  <testcase name="test_match_iata_and_match_true" classname="AirportTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
