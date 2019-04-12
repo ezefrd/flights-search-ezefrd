@@ -16,7 +16,6 @@ public class Flights {
 
 
     public Flights add(Flight flight){
-        this.flights = this.flights != null ? this.flights : new ArrayList<>();
         this.flights.add(flight);
         return this;
     }
