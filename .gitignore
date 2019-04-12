@@ -1,4 +1,9 @@
-out/
-.gradle/
+*.idea
+*.iml
+*.swp
+target/
 build/
-.idea/
+files/
+.gradle/
+gradle/
+out/
