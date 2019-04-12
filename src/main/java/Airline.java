@@ -12,17 +12,17 @@ public abstract class Airline {
         this.infantPrice = infantPrice;
     }
 
-    @Override public boolean equals(Object obj) {
-        Airline otherAirline = (Airline) obj;
-        return otherAirline.airlineCode.equals(airlineCode) &&
-                otherAirline.infantPrice.equals(infantPrice);
-    }
-
     public String showCode() {
         return this.airlineCode.show();
     }
 
-    public Price calculatePriceForInfant(PriceRate passangerRate, PriceRate departureDateRate) {
+    public Price calculatePriceForInfant() {
         return infantPrice;
+    }
+
+    @Override public boolean equals(Object obj) {
+        Airline otherAirline = (Airline) obj;
+        return otherAirline.airlineCode.equals(airlineCode) &&
+                otherAirline.infantPrice.equals(infantPrice);
     }
 }

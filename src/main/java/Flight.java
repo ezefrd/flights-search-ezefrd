@@ -1,7 +1,7 @@
 import java.util.Currency;
 import java.util.Locale;
 
-public class Flight implements PotentialFlight{
+public class Flight implements PotentialFlight, PriceableFlight{
     private Airport airportOrigin;
     private Airport airportDestiny;
     private Airline airline;
@@ -38,6 +38,7 @@ public class Flight implements PotentialFlight{
         return new FlightResult(this.airline, totalAmount);
     }
 
+    @Override
     public Price calculatePriceWithRates(PriceRate passangerRate, PriceRate departureDateRate) {
         Price price = departureDateRate.calculatePrice(this.basePrice);
         price = passangerRate.calculatePrice(price);
@@ -45,7 +46,8 @@ public class Flight implements PotentialFlight{
         return price;
     }
 
-    public Price calculatePriceForInfant(PriceRate passangerRate, PriceRate departureDateRate) {
-        return this.airline.calculatePriceForInfant(passangerRate, departureDateRate);
+    @Override
+    public Price calculatePriceForInfant() {
+        return this.airline.calculatePriceForInfant();
     }
 }
