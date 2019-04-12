@@ -1,13 +1,11 @@
 plugins {
     id 'java'
+    id 'jacoco'
 }
 
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
-
-apply plugin: 'jacoco'
-
 
 repositories {
     mavenCentral()
@@ -17,7 +15,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     testCompile "org.mockito:mockito-core:2.+"
-    compile group: 'com.google.guava', name: 'guava', version: '11.0.2'
 }
 
 jacocoTestReport {
@@ -26,3 +23,5 @@ jacocoTestReport {
         html.enabled false
     }
 }
+
+check.dependsOn jacocoTestReport

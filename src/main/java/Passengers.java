@@ -11,7 +11,6 @@ public class Passengers {
     }
 
     public Passengers addPassanger(Passanger passanger) {
-        this.passangers = this.passangers != null ? this.passangers : new ArrayList<>();
         this.passangers.add(passanger);
         return this;
     }

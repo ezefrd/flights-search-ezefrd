@@ -1,4 +1,4 @@
-public abstract class Airline {
+public abstract class Airline implements AirlinePresenter{
     protected AirlineCode airlineCode;
     protected Price infantPrice;
 
@@ -12,17 +12,18 @@ public abstract class Airline {
         this.infantPrice = infantPrice;
     }
 
+    @Override
+    public void appendCodeTo(StringBuilder flightResult) {
+        flightResult.append(this.airlineCode.show());
+    }
+
+    public Price calculatePriceForInfant() {
+        return infantPrice;
+    }
+
     @Override public boolean equals(Object obj) {
         Airline otherAirline = (Airline) obj;
         return otherAirline.airlineCode.equals(airlineCode) &&
                 otherAirline.infantPrice.equals(infantPrice);
-    }
-
-    public String showCode() {
-        return this.airlineCode.show();
-    }
-
-    public Price calculatePriceForInfant(PriceRate passangerRate, PriceRate departureDateRate) {
-        return infantPrice;
     }
 }

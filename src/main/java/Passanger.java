@@ -5,5 +5,5 @@ public abstract class Passanger {
         this.passangerRate = rate;
     }
 
-    public abstract Price calculateFlightPrice(Flight flight, PriceRate departureDateRate);
+    public abstract Price calculateFlightPrice(PriceableFlight flight, PriceRate departureDateRate);
 }

@@ -4,8 +4,8 @@ public class InfantPassanger extends Passanger{
     }
 
     @Override
-    public Price calculateFlightPrice(Flight flight,
+    public Price calculateFlightPrice(PriceableFlight flight,
             PriceRate departureDateRate) {
-        return flight.calculatePriceForInfant(this.passangerRate, departureDateRate);
+        return flight.calculatePriceForInfant();
     }
 }
