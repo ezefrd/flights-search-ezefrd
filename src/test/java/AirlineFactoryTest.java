@@ -1,7 +1,9 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mockito;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;
 
 public class AirlineFactoryTest {
@@ -34,6 +36,7 @@ public class AirlineFactoryTest {
         //then:
         Assert.assertTrue(airline instanceof IberiaAirline);
     }
+
 
     @Test
     public void test_create_from_code_british_airline(){
@@ -104,6 +107,84 @@ public class AirlineFactoryTest {
         Airline airline = airlineFactory.createFromCode(airlineCode);
         //then:
         Assert.assertTrue(airline instanceof DefaultAirline);
+    }
+
+    @Test
+    public void test_create_from_code_iberia_airline_fails_no_such_method()
+            throws InvocationTargetException, NoSuchMethodException,
+            InstantiationException, IllegalAccessException {
+        //given:
+        AirlineCode airlineCode = Mockito.mock(AirlineCode.class);
+
+        Mockito.when(
+                airlineCode.starsWithThenReturnInstanceOrDefault(
+                        "IB",
+                        IberiaAirline.class,
+                        new DefaultAirline())
+        ).thenThrow(NoSuchMethodException.class);
+        //when:
+        Airline airline = airlineFactory.createFromCode(airlineCode);
+        //then:
+        Assert.assertNull(airline);
+    }
+
+
+    //@Smell: following tests don't say too much.. should them?
+    @Test
+    public void test_create_from_code_iberia_airline_fails_illegal_accesse_exception()
+            throws InvocationTargetException, NoSuchMethodException,
+            InstantiationException, IllegalAccessException {
+        //given:
+        AirlineCode airlineCode = Mockito.mock(AirlineCode.class);
+
+        Mockito.when(
+                airlineCode.starsWithThenReturnInstanceOrDefault(
+                        "IB",
+                        IberiaAirline.class,
+                        new DefaultAirline())
+        ).thenThrow(IllegalAccessException.class);
+        //when:
+        Airline airline = airlineFactory.createFromCode(airlineCode);
+        //then:
+        Assert.assertNull(airline);
+    }
+
+    @Test
+    public void test_create_from_code_iberia_airline_fails_invocation_target_exception()
+            throws InvocationTargetException, NoSuchMethodException,
+            InstantiationException, IllegalAccessException {
+        //given:
+        AirlineCode airlineCode = Mockito.mock(AirlineCode.class);
+
+        Mockito.when(
+                airlineCode.starsWithThenReturnInstanceOrDefault(
+                        "IB",
+                        IberiaAirline.class,
+                        new DefaultAirline())
+        ).thenThrow(InvocationTargetException.class);
+        //when:
+        Airline airline = airlineFactory.createFromCode(airlineCode);
+        //then:
+        Assert.assertNull(airline);
+    }
+
+    @Test
+    public void test_create_from_code_iberia_airline_fails_instantiation_exception()
+            throws InvocationTargetException, NoSuchMethodException,
+            InstantiationException, IllegalAccessException {
+        //given:
+        AirlineCode airlineCode = Mockito.mock(AirlineCode.class);
+
+        Mockito.when(
+                airlineCode.starsWithThenReturnInstanceOrDefault(
+                        "IB",
+                        IberiaAirline.class,
+                        new DefaultAirline())
+        ).thenThrow(InstantiationException.class);
+        //when:
+        Airline airline = airlineFactory.createFromCode(airlineCode);
+        //then:
+        Assert.assertNull(airline);
     }
 
 }

@@ -8,7 +8,7 @@ public class AirlineCode implements AirlineCreator {
     }
 
     @Override
-    public Airline starsWithThenReturnInstanceOrDefault(String code, Class<Airline> validAirline, Airline defaultAirline)
+    public Airline starsWithThenReturnInstanceOrDefault(String code, Class validAirline, Airline defaultAirline)
             throws NoSuchMethodException, IllegalAccessException,
             InvocationTargetException, InstantiationException {
         if(this.airlineCode.startsWith(code)){
