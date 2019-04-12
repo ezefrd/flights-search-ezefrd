@@ -21,11 +21,11 @@ public class AirlineFactory {
     }
 
 
-    public Airline createFromCode(AirlineCode airlineCode) {
+    public Airline createFromCode(AirlineCreator airlineCreator) {
         Airline airline = new DefaultAirline();
         for(String key : airlines.keySet()){
             try {
-                airline = airlineCode.starsWithThenReturnInstanceOrDefault(key, airlines.get(key), airline);
+                airline = airlineCreator.starsWithThenReturnInstanceOrDefault(key, airlines.get(key), airline);
             } catch (NoSuchMethodException e) {
                 e.printStackTrace();
             } catch (IllegalAccessException e) {

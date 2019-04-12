@@ -3,7 +3,7 @@ import java.math.RoundingMode;
 import java.text.NumberFormat;
 import java.util.Currency;
 
-public class Price {
+public class Price implements PricePresenter{
     private BigDecimal basePrice;
     private Currency currency;
 
@@ -17,10 +17,6 @@ public class Price {
         return otherPrice.getBasePrice().equals(this.getBasePrice())&& otherPrice.currency.equals(currency);
     }
 
-    private BigDecimal getBasePrice() {
-        return this.basePrice.setScale(currency.getDefaultFractionDigits(), RoundingMode.DOWN);
-    }
-
     public Price applyRate(int rate) {
         BigDecimal priceWithRate = this.basePrice.multiply(new BigDecimal(rate)).divide(new BigDecimal(100));
         return new Price(priceWithRate, this.currency);
@@ -31,7 +27,17 @@ public class Price {
         this.basePrice = this.basePrice.setScale(currency.getDefaultFractionDigits(), RoundingMode.DOWN);
     }
 
-    public String showCost() {
+
+
+    @Override public void appendCostTo(StringBuilder flightResult) {
+        flightResult.append(showCost());
+    }
+
+    private BigDecimal getBasePrice() {
+        return this.basePrice.setScale(currency.getDefaultFractionDigits(), RoundingMode.DOWN);
+    }
+
+    private String showCost() {
         NumberFormat formatter = NumberFormat.getInstance();
         formatter.setCurrency(currency);
 

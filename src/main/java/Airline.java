@@ -1,4 +1,4 @@
-public abstract class Airline {
+public abstract class Airline implements AirlinePresenter{
     protected AirlineCode airlineCode;
     protected Price infantPrice;
 
@@ -12,8 +12,9 @@ public abstract class Airline {
         this.infantPrice = infantPrice;
     }
 
-    public String showCode() {
-        return this.airlineCode.show();
+    @Override
+    public void appendCodeTo(StringBuilder flightResult) {
+        flightResult.append(this.airlineCode.show());
     }
 
     public Price calculatePriceForInfant() {

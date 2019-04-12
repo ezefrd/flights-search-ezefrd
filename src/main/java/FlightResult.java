@@ -1,9 +1,9 @@
 public class FlightResult {
 
-    private Airline airline;
-    private Price totalCost;
+    private AirlinePresenter airline;
+    private PricePresenter totalCost;
 
-    public FlightResult(Airline airline, Price totalCost){
+    public FlightResult(AirlinePresenter airline, PricePresenter totalCost){
         this.airline = airline;
         this.totalCost = totalCost;
     }
@@ -15,9 +15,11 @@ public class FlightResult {
 
     public String show(){
         StringBuilder flightResult = new StringBuilder();
-        flightResult.append(airline.showCode());
+        airline.appendCodeTo(flightResult);
+        //flightResult.append(airline.showCode());
         flightResult.append(", ");
-        flightResult.append(totalCost.showCost());
+        totalCost.appendCostTo(flightResult);
+        //flightResult.append(totalCost.showCost());
         flightResult.append("\n");
         return flightResult.toString();
     }

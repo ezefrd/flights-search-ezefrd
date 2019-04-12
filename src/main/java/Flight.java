@@ -1,6 +1,3 @@
-import java.util.Currency;
-import java.util.Locale;
-
 public class Flight implements PotentialFlight, PriceableFlight{
     private Airport airportOrigin;
     private Airport airportDestiny;
@@ -17,8 +14,6 @@ public class Flight implements PotentialFlight, PriceableFlight{
     public boolean matchOriginAndDestinyAirports(Airport originAirport, Airport destinyAirport) {
         return airportOrigin.equals(originAirport) && airportDestiny.equals(destinyAirport);
     }
-
-
 
     @Override
     public boolean equals(Object obj) {
