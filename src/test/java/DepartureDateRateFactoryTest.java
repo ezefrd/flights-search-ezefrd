@@ -45,6 +45,32 @@ public class DepartureDateRateFactoryTest {
     }
 
     @Test
+    public void test_create_departure_date_rate_for_17_days(){
+        //given:
+        DepartureDateRateFactory departureDateRateFactory = new DepartureDateRateFactory();
+        LocalDate today = LocalDate.of(2019,3,31);
+
+        DepartureDate departureDate = new DepartureDate(today.plusDays(17));
+        //when:
+        PriceRate departureDateRate = departureDateRateFactory.createRate(today, departureDate);
+        //then:
+        Assert.assertEquals(new PriceRate(100), departureDateRate);
+    }
+
+    @Test
+    public void test_create_departure_date_rate_for_29_days(){
+        //given:
+        DepartureDateRateFactory departureDateRateFactory = new DepartureDateRateFactory();
+        LocalDate today = LocalDate.of(2019,3,31);
+
+        DepartureDate departureDate = new DepartureDate(today.plusDays(29));
+        //when:
+        PriceRate departureDateRate = departureDateRateFactory.createRate(today, departureDate);
+        //then:
+        Assert.assertEquals(new PriceRate(100), departureDateRate);
+    }
+
+    @Test
     public void test_create_departure_date_rate_for_15_days(){
         //given:
         DepartureDateRateFactory departureDateRateFactory = new DepartureDateRateFactory();
@@ -64,6 +90,32 @@ public class DepartureDateRateFactoryTest {
         LocalDate today = LocalDate.of(2019,3,31);
 
         DepartureDate departureDate = new DepartureDate(today.plusDays(3));
+        //when:
+        PriceRate departureDateRate = departureDateRateFactory.createRate(today, departureDate);
+        //then:
+        Assert.assertEquals(new PriceRate(120), departureDateRate);
+    }
+
+    @Test
+    public void test_create_departure_date_rate_for_14_days(){
+        //given:
+        DepartureDateRateFactory departureDateRateFactory = new DepartureDateRateFactory();
+        LocalDate today = LocalDate.of(2019,3,31);
+
+        DepartureDate departureDate = new DepartureDate(today.plusDays(14));
+        //when:
+        PriceRate departureDateRate = departureDateRateFactory.createRate(today, departureDate);
+        //then:
+        Assert.assertEquals(new PriceRate(120), departureDateRate);
+    }
+
+    @Test
+    public void test_create_departure_date_rate_for_4_days(){
+        //given:
+        DepartureDateRateFactory departureDateRateFactory = new DepartureDateRateFactory();
+        LocalDate today = LocalDate.of(2019,3,31);
+
+        DepartureDate departureDate = new DepartureDate(today.plusDays(4));
         //when:
         PriceRate departureDateRate = departureDateRateFactory.createRate(today, departureDate);
         //then:
