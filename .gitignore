@@ -5,5 +5,4 @@ target/
 build/
 files/
 .gradle/
-gradle/
 out/
